@@ -1,4 +1,4 @@
-﻿using DIP.CleanArchitecture.Bad.Domain;
+﻿using DIP.CleanArchitecture.Good.Domain;
 using DIP.CleanArchitecture.Good.Application;
 using System;
 using System.Collections.Generic;

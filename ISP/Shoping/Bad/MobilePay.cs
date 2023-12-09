@@ -30,5 +30,5 @@ public class MobilePay : IPay
     {
         throw new NotImplementedException();
     }
-{
+
 }
