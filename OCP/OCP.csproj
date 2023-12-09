@@ -8,10 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="TrackingPackage\Services\" />
     <Folder Include="ReportServ\Services\" />
     <Folder Include="EmployeeServ\Services\" />
-    <Folder Include="Shoping\Bad\" />
-    <Folder Include="Shoping\Good\" />
   </ItemGroup>
 
 </Project>
