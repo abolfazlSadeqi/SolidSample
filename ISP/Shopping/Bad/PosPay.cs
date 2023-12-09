@@ -4,31 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP.Shoping.Bad;
+namespace ISP.Shopping.Bad;
 
-public class MobilePay : IPay
+public class PosPay : IPay
 {
 
     public void Pay(int amount)
     {
         //to do
     }
+
+    //Pos
     public void GetAccountBalance(int AccountNumber)
     {
-        //to do
+        throw new NotImplementedException();
     }
 
-    
+   
 
     // Mobile
     public void PayBillWithBarCode(string bankAddress)
     {
-        throw new NotImplementedException();
+        //to do
     }
     // Mobile
     public void PayInstallmentLoan(int InstallmentLoanId)
     {
-        throw new NotImplementedException();
+        //to do
     }
-
 }

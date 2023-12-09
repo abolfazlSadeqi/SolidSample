@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Shoping\Bad\" />
-    <Folder Include="Shoping\Good\" />
-  </ItemGroup>
-
 </Project>

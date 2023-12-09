@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ISP.Shoping.Bad;
+namespace ISP.Shopping.Bad;
 
 public interface IPay
 {

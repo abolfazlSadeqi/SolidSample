@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ISP.Shoping.Good.Interface;
+namespace ISP.Shopping.Good.Interface;
 
 public interface IPayPos : IPay
 {

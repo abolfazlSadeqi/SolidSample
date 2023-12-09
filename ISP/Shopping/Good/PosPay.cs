@@ -1,11 +1,11 @@
-﻿using ISP.Shoping.Good.Interface;
+﻿using ISP.Shopping.Good.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP.Shoping.Good;
+namespace ISP.Shopping.Good;
 
 public class PosPay : IPayPos
 {

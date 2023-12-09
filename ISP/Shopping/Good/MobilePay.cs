@@ -1,26 +1,20 @@
-﻿using System;
+﻿using ISP.Shopping.Good.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP.Shoping.Bad;
+namespace ISP.Shopping.Good;
 
-public class PosPay : IPay
+public class MobilePay : IPayMobile
 {
 
     public void Pay(int amount)
     {
         //to do
     }
-
-    //Pos
-    public void GetAccountBalance(int AccountNumber)
-    {
-        throw new NotImplementedException();
-    }
-
-   
+       
 
     // Mobile
     public void PayBillWithBarCode(string bankAddress)
@@ -32,4 +26,5 @@ public class PosPay : IPay
     {
         //to do
     }
+
 }

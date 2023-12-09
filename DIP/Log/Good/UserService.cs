@@ -1,7 +1,7 @@
 ﻿using DIP.Log.Base;
 using DIP.Log.Model;
 
-namespace DIP.Shoping.Good;
+namespace DIP.Shopping.Good;
 
 public class UserService
 {

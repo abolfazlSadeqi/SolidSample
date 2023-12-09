@@ -1,30 +1,34 @@
-﻿using ISP.Shoping.Good.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP.Shoping.Good;
+namespace ISP.Shopping.Bad;
 
-public class MobilePay : IPayMobile
+public class MobilePay : IPay
 {
 
     public void Pay(int amount)
     {
         //to do
     }
-       
+    public void GetAccountBalance(int AccountNumber)
+    {
+        //to do
+    }
+
+    
 
     // Mobile
     public void PayBillWithBarCode(string bankAddress)
     {
-        //to do
+        throw new NotImplementedException();
     }
     // Mobile
     public void PayInstallmentLoan(int InstallmentLoanId)
     {
-        //to do
+        throw new NotImplementedException();
     }
 
 }
