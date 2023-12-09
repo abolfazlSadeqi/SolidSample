@@ -1,6 +1,8 @@
-﻿namespace ISP.CustomerValiate.Good;
+﻿namespace ISP.CustomerValidate.Bad;
 
-public class legalCustomerValidate : IlegalValidate
+
+
+public class RealCustomer : IValidate
 {
     public bool ValidateBalance(long Balance)
     {
@@ -16,9 +18,13 @@ public class legalCustomerValidate : IlegalValidate
 
     public bool ValidateName(string Name)
     {
+        throw new NotImplementedException();
+       
+    }
+
+    public bool validateRealCode(long RealCode)
+    {
         //to do
         return true;
     }
-
-   
 }

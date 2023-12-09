@@ -1,4 +1,4 @@
-﻿namespace ISP.CustomerValiate.Good;
+﻿namespace ISP.CustomerValidate.Good;
 
 public interface IRealValidate : IValidate
 {

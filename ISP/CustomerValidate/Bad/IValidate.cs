@@ -1,4 +1,4 @@
-﻿namespace ISP.CustomerValiate.Bad;
+﻿namespace ISP.CustomerValidate.Bad;
 
 public interface IValidate
 {
